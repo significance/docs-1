@@ -1,8 +1,6 @@
 # Connect to a GC Node
 
-If you choose not to use the public RPC and want to connect to your own GC node, follow these instructions:
-
-* If using a 3rd party node provider, set `XDAI_RPC_URL`=https://\<your-endpoint>&#x20;
+If you choose not to use the public RPC and want to connect to your own GC node, set `XDAI_RPC_URL`=https://\<your-endpoint>&#x20;
 
 ### **Fallback IPs (Lighthouse only)**
 
