@@ -8,7 +8,7 @@ Lighthouse is built in Rust under an Apache 2.0 License.
 
 ### Using Lighthouse as a Gnosis Beacon Chain Validator
 
-The Lighthouse client has been modified to account for consensus parameters specific to the Gnosis Chain. The original Lighthouse binary will not work with the Gnosis Beacon chain; a configured client is available for users.&#x20;
+The original Lighthouse binary (since the release 2.1.2) works with the Gnosis Beacon chain without extra modification.&#x20;
 
 * [Get Started with Lighthouse](../validator-info/get-started-node-setup/#lighthouse)
 * GBC Lighthouse Repo\

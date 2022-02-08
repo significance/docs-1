@@ -15,22 +15,29 @@ Example:
 version: '3.8'
 services:
   node:
-    image: ghcr.io/gnosischain/gbc-lighthouse:v2.0.1-gbc
+    image: sigp/lighthouse:v2.1.2-modern
+    hostname: node
+    restart: always
     command: |
       lighthouse beacon_node
-      --testnet-dir /root/sbc/config
+      --network gnosis
       --discovery-port 12000
       --port 13000
       --eth1-endpoints $XDAI_RPC_URL
       --datadir /home/.eth2/beaconchaindata
-      --http-address 127.0.0.1
+      --http-address 0.0.0.0
       --http
       --enr-address $PUBLIC_IP
       --enr-udp-port 12000
+      --target-peers $TARGET_PEERS
+      --metrics
+      --metrics-address 0.0.0.0
+      --metrics-allow-origin *
       --debug-level $LOG_LEVEL
-    network_mode: host
+    ports:
+      - '12000:12000/udp'
+      - '13000:13000'
     volumes:
-      - ./config:/root/sbc/config
       - ./node_db:/home/.eth2/beaconchaindata
     logging:
       driver: "json-file"
