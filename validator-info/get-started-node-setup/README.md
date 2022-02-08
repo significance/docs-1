@@ -148,7 +148,7 @@ The Prysm client has been modified slightly. The underlying go-ethereum library 
 
 ### Lighthouse
 
-The Lighthouse client has been modified to account for consensus parameters specific to the Gnosis Chain. **The original Lighthouse binary will not work; use the configured client below.**
+The Lighthouse client has been modified to account for consensus parameters specific to the Gnosis Chain.
 
 1. Go to a root directory where the node configuration and data will be stored. E.g. `cd /opt`.
 2.  Clone the repo that includes the required configs.
