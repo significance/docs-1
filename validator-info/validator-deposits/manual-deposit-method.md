@@ -32,6 +32,8 @@ A modification to the Gnosis Chain deposit contract allows you to deposit in bat
     TOKEN_ADDRESS=0x9C58BAcC331c9aa871AFD802DB6379a98e80CEdb
     # address of the GBC wrapper contract
     WRAPPER_ADDRESS=0x647507A70Ff598F386CB96ae5046486389368C66
+    # address of the GBC deposit contract
+    DEPOSIT_CONTRACT_ADDRESS=0x0B98057eA310F4d31F2a452B414647007d1645d9
     # block where the deposit contract was deployed at
     START_BLOCK_NUMBER=19469077
     ```
