@@ -1,6 +1,6 @@
 # Connect to a GC Node
 
-If you choose not to use the public RPC and want to connect to your own GC node, set `XDAI_RPC_URL`=https://\<your-endpoint>&#x20;
+If you choose not to use the public RPC and want to connect to a different Gnosis Chain node ([including a 3rd party provider](optional-setup-and-run-a-gnosis-chain-formerly-xdai-node.md#3rd-party-providers)), set `XDAI_RPC_URL`=https://\<your-endpoint>&#x20;
 
 ### **Fallback IPs (Lighthouse only)**
 
