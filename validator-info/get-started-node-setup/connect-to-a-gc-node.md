@@ -12,6 +12,7 @@ Use comma-separated RPC urls for the `XDAI_RPC_URL` variable to set fallback IPs
 
 ### **Sharing machines for GC and GBC clients**
 
-Previous instructions included adding the `extra_hosts` parameter to your `docker-compose.yml` file to expose the container and connect to the node if you were running both a Gnosis Chain and Gnosis Beacon Chain client on the same machine.  **This is no longer necessary with the inclusion of the bridge network driver in the latest releases**.
+If you decide to run a Gnosis Chain client (Nethermind or OpenEthereum) and a Gnosis Beacon Chain client (Lighthouse or Prysm) on the same machine, we recommend [running both in the same docker-compose.yml ](https://docs.docker.com/compose/extends/)file to enable RPC access by container name. &#x20;
 
-* `XDAI_RPC_URL`=[http://localhost:8545](http://localhost:8545)
+If you have questions about config details for this type of setup, please [ask in our discord.](https://discord.gg/gnosischain)
+
