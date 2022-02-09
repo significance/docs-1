@@ -1,8 +1,10 @@
-# Convert mGNO to GNO
+# Convert GNO to mGNO
 
-If you need some extra mGNO (for example to top off a balance or for other reasons), you can use the previous swap UI to convert GNO on the Gnosis Chain to mGNO. Note that currently there is not a mechanism to swap mGNO back to GNO.&#x20;
+{% hint style="danger" %}
+This is a page for the original swap app, which includes the ability to convert GNO to mGNO. In the current app, located at [https://deposit.gnosischain.com/](https://deposit.gnosischain.com), GNO is automatically wrapped into mGNO. Swapping is no longer needed for deposits and only useful if you want extra mGNO.
+{% endhint %}
 
-Previous UI: [https://gbc-deposit-old.herokuapp.com/](https://gbc-deposit-old.herokuapp.com)
+If you need some extra mGNO (for example to top off a balance or for other reasons), you can use the following older swap UI to convert GNO on the Gnosis Chain to mGNO. Note that currently there is not a mechanism to swap mGNO back to GNO.&#x20;
 
 1\) Go to [https://gbc-deposit-old.herokuapp.com/](https://gbc-deposit-old.herokuapp.com) and connect your web3 wallet on the Gnosis Chain to the application. \
 \
