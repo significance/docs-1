@@ -2,11 +2,6 @@
 
 ## Chain Currently in Beta Deployment
 
-{% hint style="info" %}
-**Info Form**\
-If you are interested in running a node in the future, please **** [**fill out this form**](https://airtable.com/shrrzJsRLa767gpcQ) and we will contact you to start the setup.
-{% endhint %}
-
 {% hint style="success" %}
 **Hardware Solutions**\
 ****If preferred, you can use pre-configured hardware to easily run a node with minimal setup.

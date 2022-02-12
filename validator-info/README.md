@@ -14,9 +14,7 @@ DappNode now supports the Gnosis Beacon Chain! If you would like to use their se
 
 :bulb:Want to learn the basics about validating on the beacon chain? [This is a good first article to start](https://medium.com/alethio/ethereum-2-a-validators-journey-through-the-beacon-chain-843f70aaab2e) (covers the Ethereum Beacon Chain, but processes are similar on GBC only faster: 5 sec blocks and 16 slots per epoch).&#x20;
 
-{% hint style="success" %}
-Please [fill out this form](https://airtable.com/shrrzJsRLa767gpcQ) and we will contact you with more information as we proceed through the alpha phase.&#x20;
-{% endhint %}
+
 
 
 
