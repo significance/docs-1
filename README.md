@@ -27,6 +27,8 @@ After the merge, validators (stakers) on the GBC will begin validating transacti
 Much more information on Gnosis Chain, usage, and applications is available on the [GC site](https://www.xdaichain.com). In addition, here are a few quick links to GC-relevant resources.
 
 * [Gnosis Chain Website and Docs](https://www.xdaichain.com)
+  * [Getting started with Gnosis Chain ](https://www.xdaichain.com/for-users/getting-started-with-gc)
+  * [Quick Reference Sheet](https://www.xdaichain.com/for-users/getting-started-with-gc/reference-sheet)
 * [Gnosis Chain Blockscout Block Explorer](https://blockscout.com/xdai/mainnet/)
 * [Applications running on GC ](https://gnosischain.world)(DeFi, Games, DAOs, NFTs etc)
 * Gnosis Chain Bridges
