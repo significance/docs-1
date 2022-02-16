@@ -77,7 +77,7 @@ Securely backup your mnemonic, keystores, and password and keep in a safe place.
 ```
 docker run -it --rm -v /path/to/validator_keys:/app/validator_keys \
   ghcr.io/gnosischain/validator-data-generator:latest new-mnemonic \
-  --num_validators=NUM --mnemonic_language=english --chain=gnosis \
+  --num_validators=NUM --mnemonic_language=english \
   --folder=/app/validator_keys --eth1_withdrawal_address=WITHDRAWAL_ADDRESS
 ```
 
@@ -86,7 +86,7 @@ docker run -it --rm -v /path/to/validator_keys:/app/validator_keys \
 ```
 docker run -it --rm -v /path/to/validator_keys:/app/validator_keys \
   ghcr.io/gnosischain/validator-data-generator:latest existing-mnemonic \
-  --validator_start_index=START_NUM --num_validators=NUM --chain=gnosis \
+  --validator_start_index=START_NUM --num_validators=NUM \
   --folder=/app/validator_keys --eth1_withdrawal_address=WITHDRAWAL_ADDRESS
 ```
 
