@@ -8,7 +8,7 @@ Gnosis Beacon Chain (GBC) brings extendable and accelerated beacon-network funct
 
 GBC will serve as a final frontrunner prior to important Ethereum consensus-layer updates. For example, the merge will first take place on testnets. Updates can then move to a production-level, real-world value environment (Gnosis Beacon Chain).&#x20;
 
-The GBC merge will occur approximately 1 week before the Ethereum merge. This final walkthrough will help uncover any overlooked issues and provide a confidence check immediately prior to the mainnet merge.
+The GBC merge if planned for approximately 1 week before the Ethereum merge. This final walkthrough will help uncover any overlooked issues and provide a confidence check immediately prior to the mainnet merge.
 
 Validating GBC only requires the equivalent of a single GNO token\*, opening up validation opportunities for diverse groups of individuals across the globe.
 
