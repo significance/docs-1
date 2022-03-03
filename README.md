@@ -6,9 +6,9 @@ description: Gnosis Beacon Chain Documentation
 
 Gnosis Beacon Chain (GBC) brings extendable and accelerated beacon-network functionality to the Ethereum ecosystem. Applications can iterate through real-world strategies, stage important applications, or choose to run DApps in a faster, lower-stakes environment while enjoying the benefits of massive scalability.
 
-GBC will serve as a frontrunning capacity to important Ethereum consensus-layer updates. For example, the merge will first take place on testnets. Updates can then move to a production-level, real-world value environment (Gnosis Beacon Chain).&#x20;
+GBC is optimized for certain parameters (block/epoch time) and can serve in a frontrunning capacity to important Ethereum consensus-layer updates. For example, the merge will first take place on testnets. Once thorough testing is complete, updates can then move to a production-level, real-world value environment (Gnosis Beacon Chain).
 
-Validating GBC only requires the equivalent of a single GNO token\*, opening up validation opportunities for diverse groups of individuals across the globe.
+Validating GBC only requires the equivalent of 1 GNO\*, opening up validation opportunities for diverse groups of individuals across the globe.
 
 {% hint style="info" %}
 _\*1 GNO equivalent. Staking will utilize the mGNO token, where 32 mGNO are equal to 1 GNO._
