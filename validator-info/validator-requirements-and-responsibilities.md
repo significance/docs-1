@@ -1,9 +1,5 @@
 # Validator Requirements & Responsibilities
 
-{% hint style="warning" %}
-If you are new to validating and interested in becoming a beacon chain validatore, please [fill out this form](https://airtable.com/shrrzJsRLa767gpcQ) and we will contact you regarding next steps.
-{% endhint %}
-
 Before getting started, it is important to have an understanding of your responsibilities as a validator. As an Ethereum-mirrored environment with lower stakes, validating on the GBC involves many of the same responsibilities as validating on the Ethereum Beacon Chain.&#x20;
 
 {% hint style="info" %}
