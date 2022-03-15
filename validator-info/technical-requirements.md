@@ -115,6 +115,4 @@ GC Nodes can be run with you choice of 2 clients (OpenEthereum and Nethermind) a
 
 ## Ready to Get Started?
 
-{% hint style="info" %}
-If you are interested in running a node in the future, please [fill out this form](https://airtable.com/shrrzJsRLa767gpcQ) and we will contact you to start the setup.
-{% endhint %}
+\-> [Get started with your Node Setup](get-started-node-setup/)
