@@ -107,7 +107,7 @@ _`Want to learn more about Ethereum 2.0 keys and key generation?`_ 💡[Learn mo
 ## Step 2) Choose Your Beacon Chain Client & Import Validator Keys
 
 {% hint style="info" %}
-To begin, determine which client you want to run, [Lighthouse](https://lighthouse.sigmaprime.io), [Prysm](https://prysmaticlabs.com) or [Nimbus](https://nimbus.guide/intro.html). Instructions differ for the 3 clients.
+To begin, determine which client you want to run, [Lighthouse](https://lighthouse.sigmaprime.io), [Prysm](https://prysmaticlabs.com) or [Nimbus](https://nimbus.guide/intro.html). Instructions differ for the 3 clients, **see below for instructions related to each implementation.**
 
 Make sure your machine conforms to the [Technical Requirements](../technical-requirements.md#beacon-chain-node-requirements) for running a node, including opening the following pair of ports:
 
@@ -172,7 +172,7 @@ The Lighthouse client natively supports Gnosis Beacon Chain. Further instruction
 
 ### Nimbus
 
-Official binaries or docker images for Ethereum Mainnet do **not** support Gnosis Beacon Chain. The Nimbus client can be specifically built from source in order to support Gnosis Beacon Chain. Such binaries are being prepared by the Gnosis team so they will be used automatically if the instructions below are executed.
+Official binaries or docker images for Ethereum Mainnet **do not** support Gnosis Beacon Chain. The Nimbus client can be specifically built from source to support the Gnosis Beacon Chain. Such binaries are being prepared by the Gnosis team and will be used automatically following the instructions below.
 
 1. Go to a root directory where the node configuration and data will be stored. E.g. `cd /opt`.
 2.  Clone the repo that includes the required configs.
@@ -181,7 +181,7 @@ Official binaries or docker images for Ethereum Mainnet do **not** support Gnosi
     git clone https://github.com/gnosischain/nimbus-launch.git gbc
     ```
 3. Switch to the cloned directory: `cd gbc`.
-4. Copy validators’ keystore files generated on _the Step 1_ to the `keys/validator_keys` directory. **Keystores should only be used on a single node.**\
+4. Copy validators’ keystore files generated in _Step 1_ to the `keys/validator_keys` directory. **Keystores should only be used on a single node.**\
    ****_Note: You may need to_ [_change file ownership parameters_](https://linuxize.com/post/chmod-command-in-linux/) _to copy._
 5.  Create an `.env` file from the example at `.env.example`. (note the `.` in front makes it hidden, either enable hidden files or use `ls -la` to find). \
 
@@ -190,7 +190,7 @@ Official binaries or docker images for Ethereum Mainnet do **not** support Gnosi
 
     1. Use the `curl ifconfig.me ; echo ''` command to get the IP of your node.
     2. Other values can remain unchanged. **If you are experienced and want to run your own GC node,** [**connect to your own node**](connect-to-a-gc-node.md) **** rather than the public RPC. Make sure to use a WSS connection instead of HTTPS.
-6.  Run the following command to import all added keystore files, you will be interactively promted to enter a keystore password:
+6.  Run the following command to import all added keystore files, you will be interactively prompted to enter a keystore password:
 
     ```
     docker-compose run validator-import; docker-compose down

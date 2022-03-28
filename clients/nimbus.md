@@ -2,9 +2,9 @@
 
 ### Nimbus
 
-Nimbus is a client implementation that strives to be as lightweight as possible in terms of resources used. This allows it to perform well on embedded systems, resource-restricted devices - including Raspberry Pis and mobile devices.
+Nimbus is a lightweight client implementation designed for low resource usage. This allows it to perform well on embedded systems, resource-restricted devices including Raspberry Pis, and mobile devices.
 
-Nimbus is built in Nim under an Apache 2.0 License. [More on Nimbus and team behind it](https://nimbus.team)
+Nimbus is built in Nim under an Apache 2.0 License. [More on the Nimbus and team behind it](https://nimbus.team).
 
 ### Using Nimbus as a Gnosis Beacon Chain Validator
 
