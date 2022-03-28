@@ -172,7 +172,7 @@ The Lighthouse client natively supports Gnosis Beacon Chain. Further instruction
 
 ### Nimbus
 
-The Nimbus client can be specifically built from source in order to support Gnosis Beacon Chain. Official binaries or docker images for Ethereum Mainnet do **not** support Gnosis Beacon Chain.
+Official binaries or docker images for Ethereum Mainnet do **not** support Gnosis Beacon Chain. The Nimbus client can be specifically built from source in order to support Gnosis Beacon Chain. Such binaries are being prepared by the Gnosis team so they will be used automatically if the instructions below are executed.
 
 1. Go to a root directory where the node configuration and data will be stored. E.g. `cd /opt`.
 2.  Clone the repo that includes the required configs.
