@@ -107,7 +107,7 @@ _`Want to learn more about Ethereum 2.0 keys and key generation?`_ 💡[Learn mo
 ## Step 2) Choose Your Beacon Chain Client & Import Validator Keys
 
 {% hint style="info" %}
-To begin, determine which client you want to run, [Lighthouse ](https://lighthouse.sigmaprime.io)or [Prysm](https://prysmaticlabs.com). Instructions differ for the 2 clients.
+To begin, determine which client you want to run, [Lighthouse](https://lighthouse.sigmaprime.io), [Prysm](https://prysmaticlabs.com) or [Nimbus](https://nimbus.guide/intro.html). Instructions differ for the 3 clients.
 
 Make sure your machine conforms to the [Technical Requirements](../technical-requirements.md#beacon-chain-node-requirements) for running a node, including opening the following pair of ports:
 
@@ -143,7 +143,7 @@ The Prysm client has been modified slightly. The underlying go-ethereum library 
 
 ### Lighthouse
 
-The Lighthouse client has been modified to account for consensus parameters specific to the Gnosis Chain.
+The Lighthouse client natively supports Gnosis Beacon Chain. Further instructions are using officially distributed binaries and docker images.
 
 1. Go to a root directory where the node configuration and data will be stored. E.g. `cd /opt`.
 2.  Clone the repo that includes the required configs.
@@ -170,6 +170,32 @@ The Lighthouse client has been modified to account for consensus parameters spec
     docker-compose up validator-import; docker-compose down
     ```
 
+### Nimbus
+
+The Nimbus client can be specifically built from source in order to support Gnosis Beacon Chain. Official binaries or docker images for Ethereum Mainnet do **not** support Gnosis Beacon Chain.
+
+1. Go to a root directory where the node configuration and data will be stored. E.g. `cd /opt`.
+2.  Clone the repo that includes the required configs.
+
+    ```
+    git clone https://github.com/gnosischain/nimbus-launch.git gbc
+    ```
+3. Switch to the cloned directory: `cd gbc`.
+4. Copy validators’ keystore files generated on _the Step 1_ to the `keys/validator_keys` directory. **Keystores should only be used on a single node.**\
+   ****_Note: You may need to_ [_change file ownership parameters_](https://linuxize.com/post/chmod-command-in-linux/) _to copy._
+5.  Create an `.env` file from the example at `.env.example`. (note the `.` in front makes it hidden, either enable hidden files or use `ls -la` to find). \
+
+
+    Fill in the valid external `PUBLIC_IP` __ address of your node, this will help other peers find you.&#x20;
+
+    1. Use the `curl ifconfig.me ; echo ''` command to get the IP of your node.
+    2. Other values can remain unchanged. **If you are experienced and want to run your own GC node,** [**connect to your own node**](connect-to-a-gc-node.md) **** rather than the public RPC. Make sure to use a WSS connection instead of HTTPS.
+6.  Run the following command to import all added keystore files, you will be interactively promted to enter a keystore password:
+
+    ```
+    docker-compose run validator-import; docker-compose down
+    ```
+
 ## Step 3) Run the Beacon Chain node with the attached Validator Process&#x20;
 
 On the same machine as _Step 2_ run the following commands (works for both Lighthouse and Prysm):
@@ -177,6 +203,12 @@ On the same machine as _Step 2_ run the following commands (works for both Light
 ```
 docker-compose up -d node
 docker-compose up -d validator
+```
+
+For Nimbus, validator client and beacon node are running inside the single container, so you only need to start a single container:
+
+```
+docker-compose up -d node
 ```
 
 Observe the logs by `docker-compose logs -f node` to check that the node started successfully.

@@ -4,6 +4,7 @@
 * [Clients](clients/README.md)
   * [Lighthouse](clients/lighthouse.md)
   * [Prysm](clients/prysm.md)
+  * [Nimbus](clients/nimbus.md)
   * [Gnosis Chain Node (OpenEthereum & Nethermind)](clients/gnosis-chain-node-openethereum-and-nethermind/README.md)
     * [Nethermind Node Setup](clients/gnosis-chain-node-openethereum-and-nethermind/nethermind-node-setup.md)
     * [OpenEthereum Node Setup](clients/gnosis-chain-node-openethereum-and-nethermind/openethereum-node-setup.md)

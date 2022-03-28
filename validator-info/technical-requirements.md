@@ -62,7 +62,7 @@ Recommended requirements are met when using DappNode preconfigured hardware or a
 
 ### Beacon Chain Node Requirements
 
-Minimum & Recommended specifications for running Prysm or Lighthouse clients:
+Minimum & Recommended specifications for running GBC clients:
 
 ### Prysm Client
 
@@ -71,14 +71,14 @@ Minimum & Recommended specifications for running Prysm or Lighthouse clients:
 * Operating System: 64-bit Linux, Mac OS X 10.14+, Windows 64-bit
 * Processor: Intel Core i5–760 or AMD FX-8100 or better
 * Memory: 8GB RAM
-* Storage: 20GB available space SSD
+* Storage: 128GB available space SSD
 * Internet: Broadband connection
 
 **Prysm Recommended**
 
 * Processor: Intel Core i7–4770 or AMD FX-8310 or better
 * Memory: 16GB RAM
-* Storage: 100GB available space SSD
+* Storage: 256GB available space SSD
 * Internet: Broadband connection
 
 ### Lighthouse Client
@@ -96,6 +96,24 @@ Minimum & Recommended specifications for running Prysm or Lighthouse clients:
 * 16 GB RAM
 * 256 GB solid state storage
 * 100 Mb/s download, 20 Mb/s upload broadband connection
+
+### Nimbus Client
+
+**Nimbus Minimum**
+
+* Dual-core CPU, 2015 or newer
+* 4 GB RAM
+* 128 GB solid state storage
+* 10 Mb/s download, 5 Mb/s upload broadband connection
+
+**Nimbus Recommended**
+
+* Quad-core CPU
+* 8 GB RAM
+* 256 GB solid state storage
+* 100 Mb/s download, 20 Mb/s upload broadband connection
+
+****
 
 ### Gnosis Chain Execution Layer Node Requirements
 
