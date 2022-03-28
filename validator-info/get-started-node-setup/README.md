@@ -172,7 +172,7 @@ The Lighthouse client natively supports Gnosis Beacon Chain. Further instruction
 
 ### Nimbus
 
-Official binaries or docker images for Ethereum Mainnet **do not** support Gnosis Beacon Chain. The Nimbus client can be specifically built from source to support the Gnosis Beacon Chain. Such binaries are being prepared by the Gnosis team and will be used automatically following the instructions below.
+Official binaries or docker images for Ethereum Mainnet **do not** currently support Gnosis Beacon Chain, however, the Nimbus client can be specifically built from source to support the Gnosis Beacon Chain. Use the process below to run a Nimbus beacon node on the Gnosis Beacon Chain.
 
 1. Go to a root directory where the node configuration and data will be stored. E.g. `cd /opt`.
 2.  Clone the repo that includes the required configs.
@@ -198,14 +198,16 @@ Official binaries or docker images for Ethereum Mainnet **do not** support Gnosi
 
 ## Step 3) Run the Beacon Chain node with the attached Validator Process&#x20;
 
-On the same machine as _Step 2_ run the following commands (works for both Lighthouse and Prysm):
+**Lighthouse & Prysm**\
+On the same machine as _Step 2_ run the following commands:
 
 ```
 docker-compose up -d node
 docker-compose up -d validator
 ```
 
-For Nimbus, validator client and beacon node are running inside the single container, so you only need to start a single container:
+**Nimbus** \
+The validator client and beacon node run inside a single container, so you only need to start one container (on the same machine as _step 2_):
 
 ```
 docker-compose up -d node
