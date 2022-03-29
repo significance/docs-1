@@ -1,24 +1,5 @@
 # Get Started: Node Setup
 
-## Chain Currently in Beta Deployment
-
-{% hint style="success" %}
-**Hardware Solutions**\
-****If preferred, you can use pre-configured hardware to easily run a node with minimal setup.
-
-* **DappNode** supports the Gnosis Beacon Chain! To use services for validation, please see the [guide and instructions here.](https://forum.dappnode.io/t/how-to-setup-a-gnosis-beacon-chain-gbc-validator-on-dappnode/1351)
-* [Avado](https://ava.do) offers an out-of-the-box validator solution.
-
-Otherwise, proceed to the steps below to setup, run, and deposit to your validators.
-{% endhint %}
-
-{% hint style="success" %}
-**Easy Guide**\
-​If you prefer a beginner-friendly walkthrough from start to finish, this excellent deployment guide from community member [GLCStaked ](https://twitter.com/GLCstaked)goes in-depth on setting up your environment / firewalls and explains commands in more detail. The guide uses Nethermind + Lighthouse.
-
-:green\_book:[Easy Guide to Running a Gnosis Validator ](https://mirror.xyz/0xf3bF9DDbA413825E5DdF92D15b09C2AbD8d190dd/wkE51RqApadbSW1GQartYJ5Jz71mnz2y60TNu3XNtNM)
-{% endhint %}
-
 ## Setup Summary
 
 Before you begin the setup, please check the [Validator Requirements and Responsibilities](../validator-requirements-and-responsibilities.md) and [Technical Requirements](../technical-requirements.md) for your node.
@@ -48,6 +29,25 @@ sudo curl -L "https://github.com/docker/compose/releases/download/v2.2.3/docker-
 sudo chmod +x /usr/local/bin/docker-compose 
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 ```
+
+### Additional Options:
+
+{% hint style="success" %}
+**Hardware Solutions**\
+****If preferred, you can use pre-configured hardware to easily run a node with minimal setup.
+
+* **DappNode** supports the Gnosis Beacon Chain! To use services for validation, please see the [guide and instructions here.](https://forum.dappnode.io/t/how-to-setup-a-gnosis-beacon-chain-gbc-validator-on-dappnode/1351)
+* [Avado](https://ava.do) offers an out-of-the-box validator solution.
+
+Otherwise, proceed to the steps below to setup, run, and deposit to your validators.
+{% endhint %}
+
+{% hint style="success" %}
+**Easy Guide**\
+​If you prefer a beginner-friendly walkthrough from start to finish, this excellent deployment guide from community member [GLCStaked ](https://twitter.com/GLCstaked)goes in-depth on setting up your environment / firewalls and explains commands in more detail. The guide uses Nethermind + Lighthouse.
+
+:green\_book:[Easy Guide to Running a Gnosis Validator ](https://mirror.xyz/0xf3bF9DDbA413825E5DdF92D15b09C2AbD8d190dd/wkE51RqApadbSW1GQartYJ5Jz71mnz2y60TNu3XNtNM)
+{% endhint %}
 
 ## Step 1) Generate Validator Account(s) and Deposit Data
 

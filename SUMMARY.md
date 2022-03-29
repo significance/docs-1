@@ -14,6 +14,7 @@
   * [Get Started: Node Setup](validator-info/get-started-node-setup/README.md)
     * [Optional: Setup and run a Gnosis Chain (formerly xDai) Node](validator-info/get-started-node-setup/optional-setup-and-run-a-gnosis-chain-formerly-xdai-node.md)
     * [Connect to a GC Node](validator-info/get-started-node-setup/connect-to-a-gc-node.md)
+    * [Migrate Clients](validator-info/get-started-node-setup/migrate-clients.md)
   * [Validator Deposits](validator-info/validator-deposits/README.md)
     * [Deposit Safety Instructions](validator-info/validator-deposits/deposit-safety-instructions.md)
     * [Manual Deposit Method](validator-info/validator-deposits/manual-deposit-method.md)
