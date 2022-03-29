@@ -29,9 +29,9 @@ When you are ready, you will perform the following steps to get things up and ru
 **Optional:**  [Setup and run a Gnosis Chain (GC) Node](./#1-setup-and-run-a-gnosis-chain-formerly-xdai-node): This step is for experienced node runners only. To begin, it is not needed but will be encouraged for the merge. Instructions below include a default option to connect to the public RPC.
 {% endhint %}
 
-1. [Generate Validator Keystores and Deposit Data](./#2-generate-validator-account-s-and-deposit-data): On an offline machine, generate up to 128 separate validator keys per node.
-2. [Choose your Gnosis Beacon Chain (GBC) Client](./#3-choose-your-beacon-chain-client-and-import-validator-keys): Choose to run either Prysm, Lighthouse or Nimbus. Add keystores and env variables.
-3. [Start up your GBC Node](./#4-run-the-beacon-chain-node-with-the-attached-validator-process): Run in the docker container.
+1. [Generate Validator Keystores and Deposit Data](./#step-1-generate-validator-account-s-and-deposit-data): On an offline machine, generate up to 128 separate validator keys per node.
+2. [Choose your Gnosis Beacon Chain (GBC) Client:](./#step-2-choose-your-beacon-chain-client-and-import-validator-keys) Choose to run either Prysm, Lighthouse or Nimbus. Add keystores and env variables.
+3. [Start up your GBC Node](./#step-3-run-the-beacon-chain-node-with-the-attached-validator-process): Run in the docker container.
 4. [Deposit to your Validator(s)](../validator-deposits/): Use the Deposit UI to convert GNO to mGNO (metaGNO for staking) and deposit to your validator.
 5. [View on Explorer](../validator-deposits/#view-your-validator): Wait \~1.5-2 hours for your validator(s) to go live and view at [https://beacon.gnosischain.com](https://beacon.gnosischain.com).
 
