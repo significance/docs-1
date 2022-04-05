@@ -34,7 +34,7 @@ Agree to the terms and press confirm.&#x20;
 
 ![](.gitbook/assets/stakewise-5.png)
 
-5\) Confirm the deposit transaction in your wallet. You should now see sGNO added in the interface. .
+5\) Confirm the deposit transaction in your wallet. You should now see sGNO added in the interface.
 
 ![](.gitbook/assets/sGNO.png)
 
