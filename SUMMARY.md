@@ -22,6 +22,7 @@
     * [Node Monitoring](validator-info/validator-deposits/node-monitoring.md)
   * [Validator Withdrawals](validator-info/validator-withdrawals.md)
   * [Voluntary Exit](validator-info/voluntary-exit.md)
+  * [Migrating a Validator](validator-info/migrating-a-validator.md)
 * [Liquid Staking](liquid-staking.md)
 * [Incentives](incentives.md)
 * [Contracts, Addresses, Parameters](contracts-addresses-parameters/README.md)
