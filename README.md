@@ -10,12 +10,16 @@ GBC is optimized for certain parameters (block/epoch time) and can serve in a fr
 
 Validating GBC only requires the equivalent of 1 GNO\*, opening up validation opportunities for diverse groups of individuals across the globe.
 
-{% hint style="info" %}
-_\*1 GNO equivalent. Staking will utilize the mGNO token, where 32 mGNO are equal to 1 GNO._
+{% hint style="success" %}
+🙋🏼‍♀️ Want to run a GBC validator node with ease? [DappNode ](https://dappnode.io)provides hardware solutions and step-by-step setup, plus an opportunity to get up to 4 validators free with purchase. [Learn More](https://shop.dappnode.io/product/dappnodextreme-gnosis/).
 {% endhint %}
 
 {% hint style="success" %}
-💧Liquid staking has arrived on the GBC with [Stakewise](https://app.stakewise.io). Connect your wallet to the GC to start staking __ today! [Instructions here](https://stakewise.medium.com/stakewise-liquid-staking-now-on-gnosis-beacon-chain-b732d81480b9).
+💧 Liquid staking is the easiest way to participate, and it has arrived with [Stakewise](https://app.stakewise.io). Connect your wallet to the GC to start staking __ today! [Instructions here](https://stakewise.medium.com/stakewise-liquid-staking-now-on-gnosis-beacon-chain-b732d81480b9).
+{% endhint %}
+
+{% hint style="info" %}
+_\*1 GNO equivalent. Staking uses the mGNO token, where 32 mGNO are equal to 1 GNO._
 {% endhint %}
 
 ## Gnosis Chain
