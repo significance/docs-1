@@ -8,7 +8,7 @@ Gnosis Beacon Chain (GBC) brings extendable and accelerated beacon-network funct
 
 GBC is optimized for certain parameters (block/epoch time) and can serve in a frontrunning capacity to important Ethereum consensus-layer updates. For example, the merge will first take place on testnets. Once thorough testing is complete, updates can then move to a production-level, real-world value environment (Gnosis Beacon Chain).
 
-Validating GBC only requires the equivalent of 1 GNO\*, opening up validation opportunities for diverse groups of individuals across the globe.
+[Validating GBC](validator-info/) only requires the equivalent of 1 GNO, opening up validation opportunities for diverse groups of individuals across the globe.
 
 {% hint style="success" %}
 🙋🏼‍♀️ Want to run a GBC validator node with ease? [DappNode ](https://dappnode.io)provides hardware solutions and step-by-step setup, plus an opportunity to get up to 4 validators free with purchase. [Learn More](https://shop.dappnode.io/product/dappnodextreme-gnosis/).
@@ -34,8 +34,8 @@ After the merge, validators (stakers) on the GBC will begin validating transacti
 
 Much more information on Gnosis Chain, usage, and applications is available on the [GC site](https://www.xdaichain.com). In addition, here are a few quick links to GC-relevant resources.
 
-* [Gnosis Chain Website and Docs](https://www.xdaichain.com)
-  * [Getting started with Gnosis Chain ](https://www.xdaichain.com/for-users/getting-started-with-gc)
+* [Gnosis Chain Landing Page](https://www.gnosischain.com/evm)
+  * [Getting started with Gnosis Chain ](https://www.xdaichain.com/for-users/getting-started-with-gc)\<docs>
   * [Quick Reference Sheet](https://www.xdaichain.com/for-users/getting-started-with-gc/reference-sheet)
 * [Gnosis Chain Blockscout Block Explorer](https://blockscout.com/xdai/mainnet/)
 * [Applications running on GC ](https://gnosischain.world)(DeFi, Games, DAOs, NFTs etc)
