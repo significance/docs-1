@@ -18,9 +18,11 @@ Validating GBC only requires the equivalent of 1 GNO\*, opening up validation op
 💧 Liquid staking is the easiest way to participate, and it has arrived with [Stakewise](https://app.stakewise.io). Connect your wallet to the GC to start staking __ today! [Instructions here](https://stakewise.medium.com/stakewise-liquid-staking-now-on-gnosis-beacon-chain-b732d81480b9).
 {% endhint %}
 
-{% hint style="info" %}
-_\*1 GNO equivalent. Staking uses the mGNO token, where 32 mGNO are equal to 1 GNO._
-{% endhint %}
+### Past, Present and Possible Future for Gnosis Beacon Chain
+
+This talk at DevConnect by researcher Kirill Fedoseev is a primer about the GBC and where it might be heading in the future.
+
+{% embed url="https://youtu.be/aiuxUUrxPyg?t=19952" %}
 
 ## Gnosis Chain
 
