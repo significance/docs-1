@@ -110,3 +110,17 @@ For ETH1 withdrawal credentials, make sure you have full control over the specif
 * **Gnosis Safe multisig**. Make sure you can execute calls on behalf of the safe address once withdrawals are enabled.
 * **Stub proxy**. For advanced users and service providers, another option is to deploy a proxy contract with an empty implementation. Once all details about the withdrawals are known, you can upgrade your proxy to any implementation that suits you needs. Just make sure you have full control over the upgradeability procedure, so that you will be able to update an implementation address once withdrawals are enabled.
 
+## Validator Setup (Technical)
+
+### How long does fast sync take with Nethermind?
+
+It depends on the mode and hardware specifications. Typically 24 hours should be allowed. For more information on syncing with Nethermind see [https://github.com/NethermindEth/docs/blob/master/ethereum-client/sync-modes.md](https://github.com/NethermindEth/docs/blob/master/ethereum-client/sync-modes.md)
+
+### Nethermind WARNING: no logs are available with the 'local' log drive
+
+Change the json spec file from logging: "local", to logging: driver: "json file" options: Max size: "100m" max-file: "1"
+
+
+
+
+
