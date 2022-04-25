@@ -114,11 +114,10 @@ For ETH1 withdrawal credentials, make sure you have full control over the specif
 
 ### How long does fast sync take with Nethermind?
 
-It depends on the mode and hardware specifications. Typically 24 hours should be allowed. For more information on syncing with Nethermind see [https://github.com/NethermindEth/docs/blob/master/ethereum-client/sync-modes.md](https://github.com/NethermindEth/docs/blob/master/ethereum-client/sync-modes.md)
+It depends on the mode and hardware specifications. Typically 24 hours should be allowed.&#x20;
 
-### Nethermind WARNING: no logs are available with the 'local' log drive
-
-Change the json spec file from logging: "local", to logging: driver: "json file" options: Max size: "100m" max-file: "1"
+* For more information on syncing with Nethermind see [https://github.com/NethermindEth/docs/blob/master/ethereum-client/sync-modes.md](https://github.com/NethermindEth/docs/blob/master/ethereum-client/sync-modes.md)
+* To learn more about reading logs during syncing see [https://docs.nethermind.io/nethermind/first-steps-with-nethermind/getting-started#explaining-nethermind-logs](https://docs.nethermind.io/nethermind/first-steps-with-nethermind/getting-started#explaining-nethermind-logs)
 
 
 
