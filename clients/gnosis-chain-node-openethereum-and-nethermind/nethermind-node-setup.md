@@ -1,7 +1,7 @@
 # Nethermind Node Setup
 
 {% hint style="warning" %}
-A majority of Gnosis Chain validators are now running the Nethermind client. The latest version 1.11.7 includes support for the latest Gnosis Chain HF.\
+A majority of Gnosis Chain validators are now running the Nethermind client. The latest version 1.12.7 includes support for the latest Gnosis Chain HF.\
 \
 Version [https://github.com/NethermindEth/nethermind/releases/tag/1.12.7](https://github.com/NethermindEth/nethermind/releases/tag/1.12.7)\
 Ethstats: [https://dai-netstat.poa.network/](https://dai-netstat.poa.network)
