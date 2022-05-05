@@ -97,6 +97,22 @@ Minimum & Recommended specifications for running GBC clients:
 * 256 GB solid state storage
 * 100 Mb/s download, 20 Mb/s upload broadband connection
 
+**Network utilization benchmark**
+
+For better understanding of the network throughput requirements, a benchmark was conducted on the Lighthouse v2.2.1 client running a GBC on 04.05.22.
+
+The client was configured to maintain 100 simultenious peer connections. Inbound and outbound traffic consumption was measured while altering the number of active validators connected to the beacon node.
+
+Validators are advised to consider those numbers when planning their infrastrusture and budget. With growth of the overall validator set, these requirements will increase over time as well. Make sure to allocate enough spare resources to account for future network growth.
+
+| Number of validators | Inbound traffic | Outbound traffic |
+| -------------------- | --------------- | ---------------- |
+| 10                   | 1.0 MB/s        | 1.8 MB/s         |
+| 32                   | 2.4 MB/s        | 3.15 MB/s        |
+| 64                   | 4.5 MB/s        | 3.8 MB/s         |
+| 128                  | 4.6 MB/s        | 3.8 MB/s         |
+| >256                 | 4.6 MB/s        | 3.9 MB/s         |
+
 ### Nimbus Client
 
 **Nimbus Minimum**
