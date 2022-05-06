@@ -105,13 +105,13 @@ The client was configured to maintain 100 simultenious peer connections. Inbound
 
 Validators are advised to consider those numbers when planning their infrastrusture and budget. With growth of the overall validator set, these requirements will increase over time as well. Make sure to allocate enough spare resources to account for future network growth.
 
-| Number of validators | Inbound traffic | Outbound traffic |
-| -------------------- | --------------- | ---------------- |
-| 10                   | 1.0 MB/s        | 1.8 MB/s         |
-| 32                   | 2.4 MB/s        | 3.15 MB/s        |
-| 64                   | 4.5 MB/s        | 3.8 MB/s         |
-| 128                  | 4.6 MB/s        | 3.8 MB/s         |
-| >256                 | 4.6 MB/s        | 3.9 MB/s         |
+| Number of validators | Inbound traffic | Outbound traffic | Approximate monthly traffic |
+| -------------------- | --------------- | ---------------- | --------------------------- |
+| 10                   | 1.0 MB/s        | 1.8 MB/s         | 7.2 TB                      |
+| 32                   | 2.4 MB/s        | 3.15 MB/s        | 14.2 TB                     |
+| 64                   | 4.5 MB/s        | 3.8 MB/s         | 21.2 TB                     |
+| 128                  | 4.6 MB/s        | 3.8 MB/s         | 21.5 TB                     |
+| >256                 | 4.6 MB/s        | 3.9 MB/s         | 21.7 TB                     |
 
 ### Nimbus Client
 
