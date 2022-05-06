@@ -61,7 +61,7 @@ Modified versions of [Lighthouse](clients/lighthouse.md) and [Prysm](clients/pry
 
 Along with running the GBC client you can also consider running a Gnosis Chain Node to connect with (_optional - recommended for experienced node runners only_).
 
-Syncing the [Gnosis Chain using Nethermind or OpenEthereum](clients/gnosis-chain-node-openethereum-and-nethermind/) requires \~40GB (and growing) of data to download. You may encounter some errors during synching. Depending on your setup, you can expect it to take anywhere from a few hours to several days.
+Syncing the [Gnosis Chain using Nethermind or OpenEthereum](clients/gnosis-chain-node-openethereum-and-nethermind/) requires \~75GB (and growing) of data to download. You may encounter some errors during syncing. Depending on your setup, you can expect it to take anywhere from a few hours to several days.
 
 ### Can I use a node provider to run a Gnosis Chain node?
 
@@ -81,7 +81,7 @@ Yes! [DappNode](https://dappnode.io) is a partner and full-featured service prov
 
 ### When will withdrawals be active?
 
-Following the merge between Gnosis Beacon Chain and Gnosis Chain. This is currently scheduled to occur \~1 week prior to the Ethereum merge (scheduled for June, 2022).
+Following the merge between Gnosis Beacon Chain and Gnosis Chain. This is currently scheduled to occur \~1 week prior to the Ethereum merge (scheduled for Q3 2022).
 
 ### **What are withdrawal credentials?**
 
@@ -118,8 +118,3 @@ It depends on the mode and hardware specifications. Typically 24 hours should be
 
 * For more information on syncing with Nethermind see [https://github.com/NethermindEth/docs/blob/master/ethereum-client/sync-modes.md](https://github.com/NethermindEth/docs/blob/master/ethereum-client/sync-modes.md)
 * To learn more about reading logs during syncing see [https://docs.nethermind.io/nethermind/first-steps-with-nethermind/getting-started#explaining-nethermind-logs](https://docs.nethermind.io/nethermind/first-steps-with-nethermind/getting-started#explaining-nethermind-logs)
-
-
-
-
-
