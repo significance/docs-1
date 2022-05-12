@@ -18,12 +18,21 @@ Once your node is setup, take note of the RPC endpoint -  you will need it later
 * [Nethermind RPC](https://docs.nethermind.io/nethermind/ethereum-client/json-rpc) (JSON RPC needs to be explicitly switched on in the Nethermind `config` file)&#x20;
 * [OpenEthereum RPC](https://openethereum.github.io/JSONRPC) (HTTP: Listens on port `8545`)
 
-### 3rd Party Providers
+### 3rd Party Public RPC Endpoints 
+
+**Ankr Gnosis Public RPC:** [https://rpc.ankr.com/gnosis](https://rpc.ankr.com/gnosis)
+
+Features: 
+* Automatic geo-routing across North America, Europe, Asia for fast requests
+* High Rate Limits
+
+
+### 3rd Party Service Providers
 
 Third party node providers are also an option for setting up and running a Gnosis (xDai) Chain Node.
 
 * **QuickNode** [https://blog.quiknode.io/xdai-network-is-live-on-quiknode/](https://blog.quicknode.com/xdai-network-is-live-on-quiknode/)****
-* **Ankr** [https://www.ankr.com/](https://www.ankr.com)****
+* **Ankr** [https://www.ankr.com/](https://www.ankr.com/protocol/public/gnosis/)****
 * **GetBlock.io** [https://getblock.io/nodes/stake](https://getblock.io/nodes/stake)****
 * **AnyBlock Analytics** [https://www.anyblockanalytics.com/json-rpc](https://www.anyblockanalytics.com/json-rpc/)****
 * **Pocket** [https://www.portal.pokt.network](https://www.portal.pokt.network/#1).&#x20;
